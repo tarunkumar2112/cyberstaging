@@ -10,7 +10,7 @@ const Blog = () => {
         <div className='row'>
         <h5 className='text-Primary'>Latest blog articles</h5>
           <h2>Our latest articles.</h2>
-          <p className='bottom'>Get insights on the latest trending CVE's, our own novel security research and everything which related to bolstering the security posture of your externally facing assets.</p>
+          <p className='bottom'>placeholder</p>
         </div>
         <div className='row newrow'>
           {BlogData.map(blog => (
@@ -41,11 +41,10 @@ const Blog = () => {
         <div class="bg-HR-bg h-px w-full  bg-center bg-no-repeat"></div>
 
           <div className='fullcolumn'>
-          <h5 className='text-Primary'>The security first platform</h5>
-            <h2>Supercharge your security</h2>
-            <p>Identify, Secure and Continuously Monitor your Externally Facing Attack Surface.
-              Significantly Improve your security posture within minutes with an easy, smooth onboarding process.</p>
-            <a href='/' className="btn">Get Started</a>
+          <h5 className='text-Primary'>placeholder</h5>
+            <h2>placeholder</h2>
+            <p>placeholder</p>
+            <a href='/' className="btn">placeholder</a>
           </div>
         </div>
       </div>
