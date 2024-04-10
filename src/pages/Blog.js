@@ -9,7 +9,7 @@ const Blog = () => {
       <div className='container max-w-[1200px] w-full mx-auto px-[15px]'>
         <div className='row'>
         <h5 className='text-Primary'>Latest blog articles</h5>
-          <h2>Our latest articles.</h2>
+          <h2>placeholder placeholder articles.</h2>
           <p className='bottom'>placeholder</p>
         </div>
         <div className='row newrow'>
