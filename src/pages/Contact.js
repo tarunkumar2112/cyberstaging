@@ -84,7 +84,7 @@ function ContactForm() {
             errors={state.errors}
           />
         </div>
-        <button type="submit" disabled={state.submitting}>
+        <button className="btn bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[5px] border border-solid border-slate-400/40 hover:border-white mt-[30px]" type="submit" disabled={state.submitting}>
           Submit
         </button>
       </form>
@@ -94,46 +94,46 @@ function ContactForm() {
 
 function Contact() {
   return (
-    <div className='main-section-blog'>
+    <div className='main-section-blog contact-blog'>
 
     <div className="container max-w-[1200px] w-full mx-auto px-[15px]">
       <div className='row d-flex'>
-      <div className='form-main'><ContactForm /></div>
+      <div className='form-main bg-price-bg rounded-[5px]'><ContactForm /></div>
       <div className='form-information'>
       <h5 className='text-Primary'>Get In Touch</h5>
       <h2>Seamless Cummunication, Global Impact</h2>
       <p>Reach out to us effortlessly, and let's make a global impact together. Your message matters, and matters, and we're here to listen.</p>
       <div className='icon-list'>
-        <div className='item'>
-<div className='flex-wrapper'>
+        <div className='item bg-price-bg rounded-[5px]'>
+<div className='flex-wrapper '>
   <div className='icon'>
     <img src={Addresss} alt="address"/>
   </div>
   <div className='content-info'>
-    <h4>Head Office</h4>
-    <p>Test, Address 123 No.12 California, USA</p>
+    <h3 className='text-white'>Head Office</h3>
+    <p>Test, Address 123 No.12 <br />California, USA</p>
   </div>
 </div>
         </div>
-        <div className='item'>
+        <div className='item bg-price-bg rounded-[5px]'>
         <div className='flex-wrapper'>
   <div className='icon'>
     <img src={Mails} alt="mail"/>
   </div>
   <div className='content-info'>
-    <h4>Email Support</h4>
+    <h3 className='text-white'>Email Support</h3>
     <p><a href='mailto:tess@gmail.com'>tess@gmail.com</a></p>
   
   </div>
 </div>
           </div>
-          <div className='item'>
+          <div className='item bg-price-bg rounded-[5px]'>
           <div className='flex-wrapper'>
   <div className='icon'>
     <img src={Call} alt="call"/>
   </div>
   <div className='content-info'>
-    <h4>Let's Talk</h4>
+    <h3 className='text-white'>Let's Talk</h3>
     <p><a href='tel:48375327942563'>+1234567890</a></p>
   </div>
 </div>
