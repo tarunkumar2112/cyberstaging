@@ -1,44 +1,84 @@
-// src/components/Blog.js
-import React from 'react';
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
+import React from 'react'
+import Blogimg from '../assets/first.png';
+import Blogimgs from '../assets/second.png';
+import Blogimged from '../assets/third.jpg';
 
-const postsDirectory = path.join(process.cwd(), 'posts');
-
-function Blog({ posts }) {
+const Blog = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Blog Posts</h1>
-      <ul className="space-y-4">
-        {posts.map(post => (
-          <li key={post.metadata.title} className="bg-gray-100 p-4 rounded-lg">
-            <h2 className="text-xl font-semibold">{post.metadata.title}</h2>
-            <p className="text-gray-600">{post.metadata.description}</p>
-            <img src={post.metadata.image} alt={post.metadata.title} className="mt-4 rounded-lg" />
-          </li>
-        ))}
-      </ul>
+   <>
+   <div className='conatiner'>
+    <div className='row'>
+       <p>Latest blog articles</p>
+       <h1>Our latest articles.</h1>
+       <p className='bottom'>Get insights on the latest trending CVE's, our own novel security research and everything which related to bolstering the security posture of your externally facing assets.</p>
+      
     </div>
-  );
+    <div className='row newrow'>
+      <div className='col-md-4'>
+        <div className="Blogpost">
+          <div className='img'>
+            <img src={Blogimg}
+            alt="blog" />
+          </div>
+          <div className='catesflex'>
+            <div className='cayes'>CVE</div>
+            <div className='date'>10 Apil 2024</div>
+          </div>
+          <div className="content">
+            <a href=''><h3>Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution</h3></a>
+            <p className='text-size-small text-align-left'>Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution.</p>
+          </div>
+
+        </div>
+      </div>
+      <div className='col-md-4'>
+        <div className="Blogpost">
+          <div className='img'>
+            <img src={Blogimged}
+            alt="blog" />
+          </div>
+          <div className='catesflex'>
+            <div className='cayes'>CVE</div>
+            <div className='date'>10 Apil 2024</div>
+          </div>
+          <div className="content">
+            <a href=''><h3>Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution</h3></a>
+            <p className='text-size-small text-align-left'>Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution.</p>
+          </div>
+
+        </div>
+      </div>
+      <div className='col-md-4'>
+        <div className="Blogpost">
+          <div className='img'>
+            <img src={Blogimgs}
+            alt="blog" />
+          </div>
+          <div className='catesflex'>
+            <div className='cayes'>CVE</div>
+            <div className='date'>10 Apil 2024</div>
+          </div>
+          <div className="content">
+            <a href=''><h3>Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution</h3></a>
+            <p className='text-size-small text-align-left'>Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div className="newrow">
+      <div className='fullcolumn'>
+        <p>The security first platform</p>
+        <h2>Supercharge your security</h2>
+        <p>Identify, Secure and Continuously Monitor your Externally Facing Attack Surface.
+Significantly Improve your security posture within minutes with an easy, smooth onboarding process.</p>
+<a href='/' className="btn">Get Started</a>
+      </div>
+    </div>
+   </div>
+   </>
+  )
 }
 
-export async function getStaticProps() {
-  const fileNames = fs.readdirSync(postsDirectory);
-  const posts = fileNames.map(fileName => {
-    const fullPath = path.join(postsDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const { data } = matter(fileContents);
-    return {
-      metadata: data
-    };
-  });
-
-  return {
-    props: {
-      posts
-    }
-  };
-}
-
-export default Blog;
+export default Blog
