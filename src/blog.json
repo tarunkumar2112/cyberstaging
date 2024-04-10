@@ -1,50 +1,78 @@
 [
     {
-      "id": 1,
-      "imgSrc": "https://via.placeholder.com/150",
-      "category": "CVE",
-      "date": "10 April 2024",
-      "title": "Sample Blog Title 1",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
-    },
+        "id": 1,
+        "imgSrc": "https://via.placeholder.com/150",
+        "detailPageImg": "https://via.placeholder.com/500",
+        "category": "CVE",
+        "date": "10 April 2024",
+        "title": "Sample Blog Title 1",
+        "belowtitle": "In the realm of cyberspace, digital threats loom large. Vigilance is key. Protect your assets. Stay secure. Cybersecurity matters. Shield your data. Defend your network. Be proactive. Stay safe",
+        "content": "Short description goes here.",
+        "longDescription": "In the complex landscape of cybersecurity, organizations face a multitude of threats ranging from sophisticated cyber attacks to internal vulnerabilities. To navigate this terrain effectively, it's crucial for businesses to adopt a proactive approach towards cybersecurity. A robust security posture involves comprehensive risk assessment, continuous monitoring, and timely response to emerging threats. By implementing advanced security measures and leveraging cutting-edge technologies, organizations can safeguard their digital assets and mitigate potential risks effectively.",
+        "finalDescription": "As cyber threats continue to evolve and become more sophisticated, it's imperative for organizations to remain vigilant and proactive in their cybersecurity efforts. By staying informed about the latest cyber threats, implementing robust security protocols, and fostering a culture of cybersecurity awareness, businesses can effectively protect themselves against potential cyber attacks and safeguard their valuable data assets. Remember, cybersecurity is not just a technology issue; it's a business imperative that requires a collective effort from all stakeholders to ensure a secure and resilient digital ecosystem."
+      },
     {
       "id": 2,
       "imgSrc": "https://via.placeholder.com/150",
+      "detailPageImg": "https://via.placeholder.com/500",
       "category": "CVE",
       "date": "10 April 2024",
       "title": "Sample Blog Title 2",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
+      "belowtitle": "In the realm of cyberspace, digital threats loom large. Vigilance is key. Protect your assets. Stay secure. Cybersecurity matters. Shield your data. Defend your network. Be proactive. Stay safe",
+      "content": "Short description goes here.",
+      "longDescription": "Long description goes here.",
+      "finalDescription": "Final description goes here."
     },
     {
       "id": 3,
       "imgSrc": "https://via.placeholder.com/150",
+      "detailPageImg": "https://via.placeholder.com/500",
       "category": "CVE",
       "date": "10 April 2024",
       "title": "Sample Blog Title 3",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
+      "belowtitle": "In the realm of cyberspace, digital threats loom large. Vigilance is key. Protect your assets. Stay secure. Cybersecurity matters. Shield your data. Defend your network. Be proactive. Stay safe",
+
+      "content": "Short description goes here.",
+      "longDescription": "Long description goes here.",
+      "finalDescription": "Final description goes here."
     },
     {
       "id": 4,
       "imgSrc": "https://via.placeholder.com/150",
+      "detailPageImg": "https://via.placeholder.com/500",
       "category": "CVE",
       "date": "10 April 2024",
       "title": "Sample Blog Title 4",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
+      "belowtitle": "In the realm of cyberspace, digital threats loom large. Vigilance is key. Protect your assets. Stay secure. Cybersecurity matters. Shield your data. Defend your network. Be proactive. Stay safe",
+
+      "content": "Short description goes here.",
+      "longDescription": "Long description goes here.",
+      "finalDescription": "Final description goes here."
     },
     {
       "id": 5,
       "imgSrc": "https://via.placeholder.com/150",
+      "detailPageImg": "https://via.placeholder.com/500",
       "category": "CVE",
       "date": "10 April 2024",
       "title": "Sample Blog Title 5",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
+      "belowtitle": "In the realm of cyberspace, digital threats loom large. Vigilance is key. Protect your assets. Stay secure. Cybersecurity matters. Shield your data. Defend your network. Be proactive. Stay safe",
+
+      "content": "Short description goes here.",
+      "longDescription": "Long description goes here.",
+      "finalDescription": "Final description goes here."
     },
     {
       "id": 6,
       "imgSrc": "https://via.placeholder.com/150",
+      "detailPageImg": "https://via.placeholder.com/500",
       "category": "CVE",
       "date": "10 April 2024",
       "title": "Sample Blog Title 6",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
+      "belowtitle": "In the realm of cyberspace, digital threats loom large. Vigilance is key. Protect your assets. Stay secure. Cybersecurity matters. Shield your data. Defend your network. Be proactive. Stay safe",
+
+      "content": "Short description goes here.",
+      "longDescription": "Long description goes here.",
+      "finalDescription": "Final description goes here."
     }
 ]

@@ -9,7 +9,7 @@ const Blog = () => {
       <div className='container max-w-[1200px] w-full mx-auto px-[15px]'>
         <div className='row'>
         <h5 className='text-Primary'>Latest blog articles</h5>
-          <h2>Our latest articles.</h2>
+          <h1>Our latest articles.</h1>
           <p className='bottom'>Get insights on the latest trending CVE's, our own novel security research and everything which related to bolstering the security posture of your externally facing assets.</p>
         </div>
         <div className='row newrow'>
@@ -45,7 +45,7 @@ const Blog = () => {
             <h2>Supercharge your security</h2>
             <p>Identify, Secure and Continuously Monitor your Externally Facing Attack Surface.
               Significantly Improve your security posture within minutes with an easy, smooth onboarding process.</p>
-            <a href='/' className="btn">Get Started</a>
+              <a href='/' className="btn bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Get Started</a>
           </div>
         </div>
       </div>
