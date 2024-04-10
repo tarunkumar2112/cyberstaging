@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Graphics from '../assets/Graphic.png'
+import Graphics from '../assets/Cybertess Logo.png'
 import Twitter from '../assets/X.png'
 import Facebook from '../assets/Facebook.png'
 import Insta from '../assets/Instagram.png'
@@ -16,7 +16,7 @@ const Footer = () => {
       {/* First Row: Logo, Navigation Links, and Social Media Icons */}
       <div className="flex md:justify-between justify-center gap-[20px] flex-wrap items-center md:py-[50px] py-[30px]">
         {/* Logo */}
-        <Link to="/" className="flex text-white text-lg font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
+        <Link to="/" className="flex text-white text-lg font-semibold"><img src={Graphics} /></Link>
 
         {/* Navigation Links */}
   <nav className="hidden md:flex space-x-4">

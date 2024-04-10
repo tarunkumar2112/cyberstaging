@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "imgSrc": "https://res.cloudinary.com/dsy7s4g5x/image/upload/v1712731605/first_trnjf0.png",
+      "category": "CVE",
+      "date": "10 Apil 2024",
+      "title": "Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution",
+      "content": "Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution."
+    },
+    {
+      "id": 2,
+      "imgSrc": "https://res.cloudinary.com/dsy7s4g5x/image/upload/v1712731604/second_op8tdq.png",
+      "category": "CVE",
+      "date": "10 Apil 2024",
+      "title": "Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution",
+      "content": "Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution."
+    },
+    {
+      "id": 3,
+      "imgSrc": "https://res.cloudinary.com/dsy7s4g5x/image/upload/v1712731605/third_smozbu.jpg",
+      "category": "CVE",
+      "date": "10 Apil 2024",
+      "title": "Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution",
+      "content": "Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution."
+    },
+    {
+        "id": 3,
+        "imgSrc": "https://res.cloudinary.com/dsy7s4g5x/image/upload/v1712731605/third_smozbu.jpg",
+        "category": "CVE",
+      "date": "10 Apil 2024",
+      "title": "Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution",
+      "content": "Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution."
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://res.cloudinary.com/dsy7s4g5x/image/upload/v1712731605/third_smozbu.jpg",
+        "category": "CVE",
+        "date": "10 Apil 2024",
+        "title": "Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution",
+        "content": "Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution."
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://res.cloudinary.com/dsy7s4g5x/image/upload/v1712731605/third_smozbu.jpg",
+        "category": "CVE",
+        "date": "10 Apil 2024",
+        "title": "Shockwave Attack Surface Management - CVE-2024-29059 .NET Remote Code Execution",
+        "content": "Code White disclosed CVE-2024-29059 which by Leaking ObjRefs to Exploit HTTP .NET Remoting allows to achieve Remote Code Execution."
+      }
+  ]
