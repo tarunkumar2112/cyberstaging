@@ -42,7 +42,7 @@ const BlogDetail = () => {
         </div>
       </div>
       <div className="newrow-bottom">
-        <div class="bg-HR-bg h-px w-full  bg-center bg-no-repeat"></div>
+        <div className="bg-HR-bg h-px w-full  bg-center bg-no-repeat"></div>
 
           <div className='fullcolumn'>
           <h5 className='text-Primary'>The security first platform</h5>
