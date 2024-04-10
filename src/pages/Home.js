@@ -1,10 +1,9 @@
 import React from 'react';
-import Dell from '../assets/dell.png';
 import Tesla from '../assets/tesla.png';
 import Tmobile from '../assets/t-mobile.png';
 import Yahoo from '../assets/yahoo.png';
 import United from '../assets/United States Pentagon.png';
-
+import Resolve from '../assets/imgpsh_fullsize_anim (8).png';
 import FIrst from '../assets/Icon (1).png'
 import Second from '../assets/Icon (2).png'
 import Third from '../assets/Icon (3).png'
@@ -41,7 +40,7 @@ const Home = () => {
         <img src={Tesla} alt="Image 1" className="h-auto max-w-full  " />
         <img src={Tmobile} alt="Image 2" className="h-auto max-w-full " />
         <img src={Yahoo} alt="Image 3" className="h-auto max-w-full  " />
-        <img src={Tesla} alt="Image 4" className="h-auto max-w-full " />
+        <img src={Resolve} alt="Image 4" className="extrahieght h-auto max-w-full " />
         <img src={United} alt="Image 5" className="h-auto max-w-full  " />
       </div>
       </div>
